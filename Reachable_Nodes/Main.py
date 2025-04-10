@@ -34,5 +34,5 @@ def indexQueue(adj_list, queue, visited):
             if j not in visited:
                 queue.append(j)
 
-        queue.pop(0)
+    queue.pop(0)
     return adj_list, queue, visited
